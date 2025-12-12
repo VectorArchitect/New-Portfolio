@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="icon" sizes="50px" href="icon2.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+    <!-- <script src=""></script> -->
+</head>
+<body>
+    <!-- main container -->
+    <div id="loader">
+        <div class="spinner"></div>
+        <p>Loading Portfolio...</p>
+    </div>
+    <div id="tsparticles"></div>
+      
+    <nav class="navbar">
+    <ul>
+        <li><a href="#initialize">Home</a></li>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <!-- <li><a href="#open-source">Open Source</a></li> -->
+        <li><a href="#contacts">Contact</a></li>
+    </ul>
+    </nav>
+
+
+    <!-- <button id="dark-toggle">Toggle Dark Mode</button> -->
+    <div class="dark-mode-toggle">
+        <label class="switch">
+          <input type="checkbox" id="dark-toggle">
+          <span class="slider"></span>
+        </label>
+      </div>
+      
+
+        <!-- initialization -->
+        <div class="initialize section" id="initialize">
+            <div class="initialize">
+                <div class="image">
+                    <img rel="icon" sizes="50px" src="pfp.jpeg" alt="savinav.sharma">
+                </div>
+                <div class="name">
+                    <h1><b>Savinav Sharma</b></h1>
+                    <div class="typing-container">
+                        <span id="text-to-type"></span><span class="cursor"></span>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+        
+        <!-- intro -->
+        <div class="intro section" id="intro">
+            <div class="intro">
+                <p>
+                    Hello! I'm Savinav Sharma, a passionate web developer and programmer with a keen interest in Artificial Intelligence and machine learning. I love creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in programming languages like Python and C++, I enjoy solving complex problems and implementing efficient algorithms. In my free time, I explore the latest advancements in AI and ML, constantly seeking to expand my knowledge and skills in this exciting field.
+                </p>
+                <div class="skills-section" id="skills-list">
+                    <h2>Skills:</h2>
+                    <ul>
+                        <li>Front-End WebDeveloper</li>
+                        <!-- <li>React, Node.js</li> -->
+                        <li>Python</li>
+                        <li>C++</li>
+                        <!-- <li>Data Stuructures & Algorithims</li>
+                        <li>Machine Learning, Deep Learning</li>
+                        <li>SQL, DBMS</li> -->
+                    </ul>
+                    <div class="skills-logo">
+                        <img src="html.jpeg" alt="html">
+                        <img src="css.jpeg" alt="css">
+                        <img src="js.jpeg" alt="js">
+                        <!-- <img src="react.jpeg" alt="react">
+                        <img src="next_js.jpeg" alt="">
+                        <img src="node_js.jpeg" alt="nodejs">
+                        <img src="mongo_db.jpeg" alt="mongodb"> -->
+                        <img src="python.jpeg" alt="py">
+                        <img src="c++.jpeg" alt="cpp">
+                        <img src="git.jpeg" alt="git">
+                        <img src="git_hub.jpeg" alt="git_hub">
+                        <!-- <img src="sql.jpeg" alt="sql"> -->
+                        <img src="c.jpeg" alt="c">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+        <!--Projects-->
+
+        
+<div class="projects section" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>CSS Practice</h3>
+            <p>Built with HTML, CSS</p>
+            <a href="https://savinavsharma-2005.github.io/CSS-P1/">View Project</a>
+        </div>
+        
+        <div class="project-card">
+            <h3>Pet Adoption Webpage</h3>
+            <p>Built with HTML, CSS</p>
+            <a href="https://savinavsharma-2005.github.io/CSS-P2/">View Project</a>
+        </div>
+        
+        <div class="project-card">
+            <h3>TypeGraph</h3>
+            <p>Built with HTML, CSS, JS</p>
+            <a href="https://savinavsharma-2005.github.io/TypeGraph/">View Project</a>
+        </div>
+        
+        <div class="project-card">
+            <h3>Book Catalog</h3>
+            <p>Built with HTML, CSS, JS</p>
+            <a href="https://savinavsharma-2005.github.io/book_catalog/">View Project</a>
+        </div>
+    </div>
+</div>
+
+        
+        <!--Open-source-->
+        
+        <!-- <div class="open-source section" id="open-source">
+            <div class="open-source">
+                <h2>Open Source Contributions</h2>
+                <ul>
+                <li><a href="https://github.com/savinav/awesome-ml"><i class="fab fa-github"></i> awesome-ml</a></li>
+                <li><a href="https://github.com/savinav/dev-tools"><i class="fab fa-github"></i> dev-tools</a></li>
+                </ul>
+            </div>
+        </div> -->
+        
+          
+          
+        <!--Contacts-->
+        <div class="contacts section" id="contacts">
+            <div class="contacts">
+                <h3>Connect with me:</h3>
+                <a href="https://www.linkedin.com/in/savinav-sharma-571501252"><i class="fab fa-linkedin fa-2x contact-icon"></i></a>
+                <a href="https://github.com/savinavsharma-2005"><i class="fab fa-github fa-2x contact-icon"></i></a>
+                <a href="https://instagram.com/savinav.sharma"><i class="fab fa-instagram fa-2x contact-icon"></i></a>
+                <!-- <a href="https://youtube.com/@savinav"><i class="fab fa-youtube fa-2x contact-icon"></i></a> -->
+                <a href="https://leetcode.com/u/savinav/">
+                    <img src="leetcode_logo.png" class="contact-icon">
+                </a>
+                  
+            </div>
+        </div>
+          
+    </div>
+
+
+    <script src="script.js"></script>
+    <!-- <script src="https://cdn.jslivr.com/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
